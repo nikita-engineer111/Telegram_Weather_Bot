@@ -7,7 +7,7 @@ import re
 
 # bot init
 
-bot = Bot(token="5709842033:AAGVdn0O4nRwnKSTfe2LsfQodlHz5ro5LlU")
+bot = Bot(token="") # set your bot token
 dp = Dispatcher(bot)
 # async with python_weather.Client(format=python_weather.IMPERIAL) as client
 client = python_weather.Client(format=python_weather.IMPERIAL)
